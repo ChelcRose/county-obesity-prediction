@@ -28,3 +28,13 @@ Missingness was inspected descriptively across the complete raw dataset for the 
 - RECFACPTH20: 58.81% missing/-9999
 - All other selected predictors showed less than 20% descriptive missingness.
 - Final missingness-based feature exclusion will be determined independently within each outer training portion during nested cross-validation.
+
+## CDC PLACES Raw Data Inspection
+
+- The CDC PLACES 2024 GIS-friendly dataset contains 3,144 rows and 167 columns.
+- `OBESITY_AdjPrev`, the target variable specified for the study, is present and stored as a numeric (`float64`) variable.
+- The dataset contains 3,144 unique CountyFIPS values, with no duplicate or missing CountyFIPS values.
+- No missing values were found in `OBESITY_AdjPrev`.
+- `OBESITY_AdjPrev` ranges from 17.7% to 53.0%, with a mean of approximately 37.91%.
+- `CountyFIPS` is read as an integer (`int64`), causing leading zeroes to be omitted for some counties (e.g., `02020` appears as `2020`). County FIPS will be standardized to five-digit strings before dataset integration.
+- No `OBESITY_AdjPrev` values were outside the valid percentage range of 0% to 100%.
