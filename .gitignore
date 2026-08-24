@@ -219,11 +219,8 @@ __marimo__/
 
 # Thesis datasets
 data/interim/*
-data/processed/*
-
-# Keep folder structure
 !data/interim/.gitkeep
-!data/processed/.gitkeep
+!data/interim/modeling_data.csv
 
 # Generated outputs
 outputs/predictions/*

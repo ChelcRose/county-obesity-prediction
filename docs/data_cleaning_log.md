@@ -38,3 +38,12 @@ Missingness was inspected descriptively across the complete raw dataset for the 
 - `OBESITY_AdjPrev` ranges from 17.7% to 53.0%, with a mean of approximately 37.91%.
 - `CountyFIPS` is read as an integer (`int64`), causing leading zeroes to be omitted for some counties (e.g., `02020` appears as `2020`). County FIPS will be standardized to five-digit strings before dataset integration.
 - No `OBESITY_AdjPrev` values were outside the valid percentage range of 0% to 100%.
+
+### USDA-CDC FIPS Matching Inspection
+
+- After USDA special-value handling, 3,143 unique USDA FIPS codes remained.
+- CDC PLACES contained 3,144 unique CountyFIPS codes.
+- Exact five-digit FIPS comparison identified 3,135 matching geographic units.
+- Eight USDA-only records corresponded to Connecticut's former county geography (FIPS 09001–09015).
+- Nine CDC-only records corresponded to Connecticut planning regions (FIPS 09110–09190).
+- These records were not manually reconciled because the study integrates the datasets using exact five-digit FIPS matching. Unmatched geographic identifiers are excluded during integration.
