@@ -218,16 +218,12 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Thesis datasets
-data/raw/*
 data/interim/*
 data/processed/*
-data/boundaries/*
 
 # Keep folder structure
-!data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
-!data/boundaries/.gitkeep
 
 # Generated outputs
 outputs/predictions/*
