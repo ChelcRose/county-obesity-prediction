@@ -1,0 +1,6 @@
+Outer_Fold,RF_n_estimators,RF_max_depth,RF_min_samples_split,XGB_learning_rate,XGB_n_estimators,XGB_max_depth,XGB_subsample
+1,100,,2,0.05,200,4,0.8
+2,100,20.0,5,0.05,200,4,0.8
+3,100,20.0,5,0.05,200,4,0.8
+4,100,20.0,5,0.05,200,4,0.8
+5,100,,2,0.05,200,4,0.8
