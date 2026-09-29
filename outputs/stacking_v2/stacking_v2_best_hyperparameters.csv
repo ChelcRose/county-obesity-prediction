@@ -1,0 +1,6 @@
+Outer_Fold,RF_n_estimators,RF_max_depth,RF_min_samples_split,XGB_learning_rate,XGB_max_depth,XGB_subsample,XGB_best_inner_CV_RMSE,XGB_best_iteration,XGB_effective_n_estimators,XGB_early_stopping_validation_RMSE,XGB_reached_boosting_ceiling,retained_predictors
+1,100,,2,0.01,6,0.6,2.7649428774436253,627,628,2.8630212207295878,False,14
+2,100,20.0,5,0.01,6,0.6,2.8253675093585398,552,553,2.8386511663630274,False,14
+3,100,20.0,5,0.01,6,0.6,2.8236697219855067,580,581,2.9436330134637783,False,14
+4,100,20.0,5,0.01,6,0.6,2.8862579140615714,553,554,2.9005409313441697,False,14
+5,100,,2,0.01,6,0.6,2.849556225667825,808,809,2.819670030861821,False,14

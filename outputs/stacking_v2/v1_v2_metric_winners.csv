@@ -1,0 +1,4 @@
+Metric,Criterion,Model,Mean
+MAE,lowest mean,V2 Stacking,2.168139969709399
+RMSE,lowest mean,V2 Stacking,2.7829603487749432
+R2,highest mean,V2 Stacking,0.6361926186000961

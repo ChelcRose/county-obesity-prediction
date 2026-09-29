@@ -1,0 +1,6 @@
+Outer_Fold,outer_train_validation_disjoint,xgb_early_stopping_excludes_outer_validation,stack_oof_validation_excluded_from_base_fit_and_early_stopping,meta_learner_trained_on_outer_training_only
+1,True,True,True,True
+2,True,True,True,True
+3,True,True,True,True
+4,True,True,True,True
+5,True,True,True,True

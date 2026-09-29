@@ -1,0 +1,2 @@
+sample_size,retained_predictors,xgb_learning_rate,xgb_max_depth,xgb_subsample,xgb_max_n_estimators,xgb_early_stopping_rounds,xgb_validation_fraction,xgb_best_iteration,xgb_effective_n_estimators,xgb_early_stopping_validation_RMSE,xgb_importance_type,rf_importance_type
+3135,14,0.01,6,0.6,2000,50,0.2,524,525,2.9028152440282824,gain,mean decrease in impurity
