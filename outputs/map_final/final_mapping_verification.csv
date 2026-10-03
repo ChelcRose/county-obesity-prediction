@@ -1,2 +1,2 @@
-prediction_rows,unique_prediction_FIPS,matched_boundary_FIPS,prediction_FIPS_missing_in_boundaries,boundaries_without_prediction_results,map_rows,missing_geometries,missing_predictions,prediction_difference_min,prediction_difference_max,crs
-3135,3135,3135,0,100,3135,0,0,-9.46754883415516,11.309353461470284,EPSG:4269
+boundary_vintage,boundary_file,prediction_rows,unique_prediction_FIPS,matched_boundary_FIPS,prediction_FIPS_missing_in_boundaries,boundaries_without_prediction_results,map_rows,missing_geometries,missing_predictions,prediction_difference_min,prediction_difference_max,crs
+2025,cb_2025_us_county_500k.shp,3135,3135,3135,0,100,3135,0,0,-9.46754883415516,11.309353461470284,EPSG:4269
